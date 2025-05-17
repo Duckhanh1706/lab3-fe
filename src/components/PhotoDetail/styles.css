@@ -1,0 +1,26 @@
+.photo-detail {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.photo-detail .MuiCard-root {
+  margin-bottom: 24px;
+}
+
+.photo-detail .MuiTypography-h5 {
+  margin-bottom: 16px;
+}
+
+.photo-detail .MuiList-root {
+  border-top: 1px solid #ddd;
+}
+
+.photo-detail .MuiListItem-root {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.photo-detail .MuiListItemText-root {
+  padding-left: 16px;
+}

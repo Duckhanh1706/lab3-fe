@@ -1,0 +1,53 @@
+/* UserPhotos.css */
+
+.user-photos-container {
+  padding: 20px;
+}
+
+.user-photo-block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-photo-image {
+  width: 75px; /* Giảm kích thước ảnh xuống một nửa */
+  height: 75px; /* Giảm kích thước ảnh xuống một nửa */
+  object-fit: cover;
+  margin-right: 10px; /* Giảm khoảng cách giữa ảnh và thông tin */
+}
+
+.photo-details {
+  flex: 1;
+  margin-left: 10px; /* Giảm khoảng cách bên trái */
+}
+
+.user-photo-comment {
+  margin-top: 5px; /* Giảm khoảng cách giữa các phần tử */
+}
+
+.user-photo-comment a {
+  font-weight: 500;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.user-photo-comment a:hover {
+  text-decoration: underline;
+}
+
+/* Giảm chiều cao ô bình luận */
+.MuiTextField-root {
+  margin-bottom: 4px; /* Giảm khoảng cách dưới ô nhập */
+  font-size: 12px; /* Giảm kích thước chữ */
+}
+
+.MuiTextField-root textarea {
+  height: 15px; /* Giảm chiều cao của ô nhập xuống một nửa */
+}
+
+/* Điều chỉnh kích thước và khoảng cách của nút */
+.MuiButton-root {
+  margin-top: 4px; /* Giảm khoảng cách giữa nút và ô nhập */
+  padding: 3px 8px; /* Giảm padding của nút */
+  font-size: 12px;
+}

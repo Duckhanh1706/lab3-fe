@@ -1,0 +1,21 @@
+.user-comments-container {
+  padding: 20px;
+}
+
+.comment-item {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 12px;
+  transition: background 0.2s ease;
+}
+
+.comment-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.comment-thumbnail {
+  margin-right: 16px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}

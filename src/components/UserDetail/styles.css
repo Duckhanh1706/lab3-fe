@@ -1,0 +1,24 @@
+/* UserDetail.css */
+
+.user-detail-container {
+  padding: 24px;
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-detail-container h4 {
+  margin-bottom: 16px;
+  color: #1976d2;
+}
+
+.user-detail-container p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.user-detail-container .view-photos-btn {
+  margin-top: 20px;
+}

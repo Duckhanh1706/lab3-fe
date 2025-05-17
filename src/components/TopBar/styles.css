@@ -1,0 +1,22 @@
+/* styles.css */
+
+.topbar-appBar {
+  background-color: #1976d2; /* Màu xanh của Material UI */
+  z-index: 1201; /* cao hơn drawer nếu có */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #fff;
+}
